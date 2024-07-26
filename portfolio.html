@@ -78,20 +78,24 @@
 			<article id="on_the_go_piano" class="wrapper style3">
         <div class="container">
           <header>
-            <h2>ML Project 1: Linear Regression - Student Performance Predicctor</h2>
+            <h2>Student Performance Predictor</h2>
           </header>
           <div class="row">
               <div class="col-4 col-6-medium col-12-small">
               <article class="box style2">
-                <a href="#" class="image featured"><img src="images/police_tool.png" alt="" /></a>
-                <h3><a href="#">Police Investigation Tool</a></h3>
-                <p>Fullstack application</p>
+                <a href="#" class="image featured"><img src="images/student_grades_prediction.png" alt="" /></a>
+                <h3><a href="#">Student Performance Predictor</a></h3>
+                <p>Machine Learning using Linear Regression</p>
               </article>
             </div>
-            <div class="style60" style="padding-left: 50px;">
-              <p>As part of a group project we were presented a scenario of a user who needed to be able to use an application that by inputting in a time and location of an incident would be presented back with who was known to have been in the area at this time.  As part of this project we were given lots of CSV files containing lots of dummy data including, names, addresses, call records, ATM and card transitions and vehicle registration.       </p>
-              <p>We chose to use React for the frontend, Node.js and SQL for backend and deploy on AWS. My main focus was on Node.js and querying the database which took a lot of time and effort to get from the original data format onto a database and in a way that could be used on a relational database. We also used a Map API to take the coordinates returned from the backend to display the locations of activities on a map for the user to be able to easily interpret the data. This was a really enjoyable project and I learnt a lot from various aspects of development.       </p>
-              <a href="http://13.40.33.22:3000/search" ><button>Open Investigation Tool </button></a>  <a href="https://github.com/Lucynfox/FinalProjectBackend" ><button>View Code</button></a>  
+            <div class="style60" style="text-align: left;">
+              <p>Using Student Performance data from UCI Machine Learning repository I built a Linear Regression model to predict student final exam scores based on certain data about that student such as scores in previous tests and absence days.</p>
+              <p>Step 1: I downloaded the data file, chose which features would likely be best indicators of a students success and then I had to format the data. <br>
+				Step 2: I split the data into training and test data sets. I chose to seperate out 10% for the test data. <br>
+				Step 3: Next I trained the model using scikit learn to find a "best-fit" line from the student data provided. I then compared the models predicted score with the actual score from the test set data to find an accurancy percentage. Based on this I played around with which student information I included in the model in order to increase the model accuracy score.<br>
+				Step 4: Finally I create a small user interface where a user can type in details such as previous test scores and absenses of a student to get a prediction of their final year score. </p>
+			  <p>To try out the student grade predictions model click on the button below and press the green run button in replit to run the code.</p>
+              <a href="https://replit.com/@LucyFox1/studentgradepredictor#main.py" ><button>Open Grade Prediction Tool </button></a>  
             </div>
           </div>
                   </div>
