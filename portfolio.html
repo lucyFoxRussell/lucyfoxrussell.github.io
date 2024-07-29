@@ -25,56 +25,91 @@
 				</div>
 			</article>
 
-      <!-- Police Investigation Tool -->
-			<article id="on_the_go_piano" class="wrapper style3">
+      <!-- House Price Predictior using Linear Regresion: Part 3 -->
+	  <article id="on_the_go_piano" class="wrapper style3">
         <div class="container">
           <header>
-            <h2>ML Project 3: Neural Network Classification - Hand written digits</h2>
+            <h2>House Price Predictior using Linear Regresion: Part 3</h2>
           </header>
           <div class="row">
               <div class="col-4 col-6-medium col-12-small">
               <article class="box style2">
-                <a href="#" class="image featured"><img src="images/police_tool.png" alt="" /></a>
-                <h3><a href="#">Police Investigation Tool</a></h3>
-                <p>Fullstack application</p>
+                <a href="#" class="image featured"><img src="images/linear_regression_part2.png" alt="" /></a>
+                <h3><a href="#">House Price Predictior</a></h3>
+                <p>Linear Regression with multiple variables</p>
               </article>
             </div>
             <div class="style60" style="padding-left: 50px;">
-              <p>As part of a group project we were presented a scenario of a user who needed to be able to use an application that by inputting in a time and location of an incident would be presented back with who was known to have been in the area at this time.  As part of this project we were given lots of CSV files containing lots of dummy data including, names, addresses, call records, ATM and card transitions and vehicle registration sightings.       </p>
-              <p>We chose to use React for the frontend, Node.js and SQL for backend and deploy on AWS. My main focus was on Node.js and querying the database which took a lot of time and effort to get from the original data format onto a database and in a way that could be used on a relational database. We also used a Map API to take the coordinates returned from the backend to display the locations of activities on a map for the user to be able to easily interpret the data. This was a really enjoyable project and I learnt a lot from various aspects of development.       </p>
-              <p>To try out the tool you can use the example data Latitude: 52.70225113709832 Longitude: -2.0368518763076935 and Date and Time: 01/05/2015 09:08 as this is known to have relevant data associated with it in the database.  </p
-              <a href="http://13.40.33.22:3000/search" ><button>Open Investigation Tool </button></a>  <a href="https://github.com/Lucynfox/FinalProjectBackend" ><button>View Code</button></a>  
+				<p>Continuing on from my house price predictor project below my next step was to use multiple variables instead of one to feed into my model.
+					Again I used scikit learn to split these data sets up into training and test sets and then fit a line to the training set. 
+					I then compared the predicted house price from the test set data to calculate an accuracy score of the model. 
+					Finally I used the model to predict a house price when given the square feet of the house. 
+					e.g Using this model a house with 1,750 square feet will be predicted to have the corresponding price of £425,000; as shown in the plot to the left.</p>
+				<p>I have written each step down in detail in a Juypter Notebook. To view this notebook and test this model to see what the output will be for a given sqft please click on the link below. On the top of the page click on run and then run all.</p>
+			  <a href="http://13.40.33.22:3000/search" ><button>Open Investigation Tool </button></a>  <a href="https://github.com/Lucynfox/FinalProjectBackend" ><button>View Code</button></a>  
+  
+            </div>
+          </div>
+                  </div>
+        </article>
+
+      <!-- House Price Predictior using Linear Regresion: Part 2 -->
+			<article id="on_the_go_piano" class="wrapper style3">
+        <div class="container">
+          <header>
+            <h2>House Price Predictior using Linear Regresion: Part 2</h2>
+          </header>
+          <div class="row">
+              <div class="col-4 col-6-medium col-12-small">
+              <article class="box style2">
+                <a href="#" class="image featured"><img src="images/linear_regression_part2.png" alt="" /></a>
+                <h3><a href="#">House Price Predictior</a></h3>
+                <p>Linear Regression with multiple house data points</p>
+              </article>
+            </div>
+            <div class="style60" style="padding-left: 50px;">
+				<p>Continuing on from my house price predictor project below I decided to slightly increase the complexity of the project by using a great number of data sets.
+					Using scikit learn I then split these up into training and test sets and then fit a line to the training set. 
+					I then compared the predicted house price from the test set data to calculate an accuracy score of the model. 
+					Finally I used the model to predict a house price when given the square feet of the house. 
+					e.g Using this model a house with 1,750 square feet will be predicted to have the corresponding price of £425,000; as shown in the plot to the left.</p>
+				<p>I have written each step down in detail in a Juypter Notebook. To view this notebook and test this model to see what the output will be for a given sqft please click on the link below. On the top of the page click on run and then run all.</p>
+			  <a href="http://13.40.33.22:3000/search" ><button>Open Investigation Tool </button></a>  <a href="https://github.com/Lucynfox/FinalProjectBackend" ><button>View Code</button></a>  
   
             </div>
           </div>
                   </div>
         </article>
       
-            <!-- Logistic Regression - Student Performance Predicctor -->
+            <!-- House Price Predictior using Linear Regresion: Part 1 -->
 			<article id="on_the_go_piano" class="wrapper style3">
         <div class="container">
           <header>
-            <h2>ML Project 2: Logistic Regression - </h2>
+            <h2>House Price Predictior using Linear Regresion: Part 1 </h2>
           </header>
           <div class="row">
               <div class="col-4 col-6-medium col-12-small">
               <article class="box style2">
-                <a href="#" class="image featured"><img src="images/police_tool.png" alt="" /></a>
-                <h3><a href="#">Police Investigation Tool</a></h3>
-                <p>Fullstack application</p>
+                <a href="#" class="image featured"><img src="images/linear_regression_part1.png" alt="" /></a>
+                <h3><a href="#">House Price Predictior</a></h3>
+                <p>Linear regression with two data points and one variable.</p>
               </article>
             </div>
-            <div class="style60" style="padding-left: 50px;">
-              <p>As part of a group project we were presented a scenario of a user who needed to be able to use an application that by inputting in a time and location of an incident would be presented back with who was known to have been in the area at this time.  As part of this project we were given lots of CSV files containing lots of dummy data including, names, addresses, call records, ATM and card transitions and vehicle registration.       </p>
-              <p>We chose to use React for the frontend, Node.js and SQL for backend and deploy on AWS. My main focus was on Node.js and querying the database which took a lot of time and effort to get from the original data format onto a database and in a way that could be used on a relational database. We also used a Map API to take the coordinates returned from the backend to display the locations of activities on a map for the user to be able to easily interpret the data. This was a really enjoyable project and I learnt a lot from various aspects of development.       </p>
-              <a href="http://13.40.33.22:3000/search" ><button>Open Investigation Tool </button></a>  <a href="https://github.com/Lucynfox/FinalProjectBackend" ><button>View Code</button></a>  
-  
+            <div class="style60" style="text-align: left;">
+				<p>In order to become more familar with linear regression I decided to start off as simple as possible to build up my knowledge of the foundations and then slowly make the same project more complex.</p>
+				<p>
+					Step 1: Create and format data. <br>To keep it as simple as possible I decided to just use data for two houses with one variable which is the square feet of the house and the price as the target.  House 1: is a house with 1000 square feet(sqft) sold for £300,000. House 2: is a house with 2000sqft sold for £500,000. <br><br>
+					Step 2: Calculate the equation of the line of best fit between the two points.<br> I first used the data points to work out the slope/ coefficent of the line and then used this to find the y intercept.<br><br>
+					Step 3: Plot the line<br> I used the library Matplotlib to plot the line so that I could see visually the how the square feet and price were related.<br><br>
+					Step 4: Use model to predict a house price when given a sqft.  <br>I can now use my model to predictions. e.g Using this model a house with 1,200 square feet will be predicted to have the corresponding price of £340,000; as shown in the plot to the left.</p>
+				<p>I have written each step down in detail in a Juypter Notebook. I have written each step down in detail in a Juypter Notebook. To view this notebook and test this model to see what the output will be for a given sqft please click on the link below.On the top of the page click on run and then run all.</p>
+				<a href="http://13.40.33.22:3000/search" ><button>Open Investigation Tool </button></a>  <a href="https://github.com/Lucynfox/FinalProjectBackend" ><button>View Code</button></a>  
             </div>
           </div>
                   </div>
         </article>
       
-            <!-- Linear Regression - Student Performance Predicctor -->
+            <!-- Linear Regression - Student Performance Predictor -->
 			<article id="on_the_go_piano" class="wrapper style3">
         <div class="container">
           <header>
